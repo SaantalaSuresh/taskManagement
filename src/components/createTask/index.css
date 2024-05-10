@@ -1,0 +1,45 @@
+.task-form-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 30px auto;
+  }
+  
+  .task-form-container input,
+  .task-form-container textarea,
+  .task-form-container select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .task-form-container textarea {
+    height: 80px;
+  }
+  
+  .task-form-container .buttons {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .task-form-container .cancel-button,
+  .task-form-container .create-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .task-form-container .cancel-button {
+    background-color: #ccc;
+  }
+  
+  .task-form-container .create-button {
+    background-color: #007bff;
+    color: white;
+  }

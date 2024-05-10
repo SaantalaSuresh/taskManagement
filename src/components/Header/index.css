@@ -1,0 +1,35 @@
+/* Header.css */
+.header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+  }
+  
+  .navigation .nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navigation .nav-item {
+    margin-right: 20px;
+  }
+  
+  .navigation .nav-link {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .navigation .nav-link:hover {
+    text-decoration: underline;
+  }
+  

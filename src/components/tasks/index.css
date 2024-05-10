@@ -1,0 +1,164 @@
+/* ToDoList.css */
+.todo-list {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 30px auto;
+   
+  }
+  
+  .task {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .task:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .title {
+    flex-grow: 1;
+    margin-left: 5px;
+    max-width: 160px;
+  }
+  
+  .priority,
+  .status {
+    margin-right: 10px;
+    padding: 2px 5px;
+    border-radius: 4px;
+    color: #fff;
+  }
+  
+  .priority.high {
+    background-color: #dc3545;
+    gap:10px;
+  }
+  
+  .priority.medium {
+    background-color: #ffc107;
+    gap:10px;
+  }
+  
+  .priority.low {
+    background-color: #007bff;
+    gap:10px;
+  }
+  
+  .status.in-progress {
+    background-color: #ffc107;
+  }
+  .status.completed {
+    background-color: #28a745;
+  }
+  
+  .status.new {
+    background-color: #28a745;
+  }
+  
+  .due-date {
+    margin-right: 10px;
+  }
+  
+  .edit-btn,
+  .delete-btn {
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  
+/* index.css */
+.todo-list {
+    margin-top: 20px;
+  }
+  
+  .todo-heading {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #f0f0f0;
+    font-weight: bold;
+    padding-top: 13px;
+  }
+  
+  .todo-heading span {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .task {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .task input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .title {
+    flex: 3;
+  }
+  
+  .description {
+    flex: 4;
+    max-width: 150px;
+  }
+  
+  .priority,
+  .due-date,
+  .status {
+    flex: 1;
+    text-align: center;
+    max-height: 60px;
+  }
+  
+  .completed .title {
+
+    color: #888;
+  }
+  
+  
+.search-box {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    min-width: 300px;
+    max-width: 500px;
+    margin-top: 30px;
+  }
+  
+  /* Style the sort buttons */
+  .sort-btn {
+    background-color: #f0f0f0;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin-left: 5px;
+    border-radius: 4px;
+  }
+  
+  .sort-btn:hover {
+    background-color: #e0e0e0;
+  }
+  
+  /* Add icons to sort buttons */
+  .sort-btn::before {
+    content: '⬆️';
+    margin-right: 5px;
+  }
+  
+  .sort-btn.desc::before {
+    content: '⬇️';
+  }
+  
+  .heading-container{
+    display: flex;
+    justify-content: space-between;
+  }
